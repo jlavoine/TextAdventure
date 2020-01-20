@@ -5,22 +5,62 @@
       {
         "Id": "room_0",
         "Title": "Room 0",
-        "Description": "This is room 0"
+        "Description": "This is room 0",
+        "DirectionalExits": [
+          {
+            "Direction": "North",
+            "TargetRoomId": "room_1"
+          },
+          {
+            "Direction": "East",
+            "TargetRoomId": "room_3"
+          }
+        ]
       },
       {
         "Id": "room_1",
         "Title": "Room 1",
-        "Description": "This is room 1"
+        "Description": "This is room 1",
+        "DirectionalExits": [
+          {
+            "Direction": "South",
+            "TargetRoomId": "room_0"
+          },
+          {
+            "Direction": "East",
+            "TargetRoomId": "room_2"
+          }
+        ]
       },
       {
         "Id": "room_2",
         "Title": "Room 2",
-        "Description": "This is room 2"
+        "Description": "This is room 2",
+        "DirectionalExits": [
+          {
+            "Direction": "West",
+            "TargetRoomId": "room_1"
+          },
+          {
+            "Direction": "South",
+            "TargetRoomId": "room_3"
+          }
+        ]
       },
       {
         "Id": "room_3",
         "Title": "Room 3",
-        "Description": "This is Room 3"
+        "Description": "This is Room 3",
+        "DirectionalExits": [
+          {
+            "Direction": "North",
+            "TargetRoomId": "room_2"
+          },
+          {
+            "Direction": "West",
+            "TargetRoomId": "room_0"
+          }
+        ]
       }
     ]
   }
