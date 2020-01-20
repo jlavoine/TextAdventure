@@ -1,0 +1,27 @@
+[
+  {
+    "Id": "World 0",
+    "Rooms": [
+      {
+        "Id": "room_0",
+        "Title": "Room 0",
+        "Description": "This is room 0"
+      },
+      {
+        "Id": "room_1",
+        "Title": "Room 1",
+        "Description": "This is room 1"
+      },
+      {
+        "Id": "room_2",
+        "Title": "Room 2",
+        "Description": "This is room 2"
+      },
+      {
+        "Id": "room_3",
+        "Title": "Room 3",
+        "Description": "This is Room 3"
+      }
+    ]
+  }
+]
